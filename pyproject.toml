@@ -1,0 +1,8 @@
+[project]
+name = "house_bell"
+version = "1.0.0"
+
+[tool.flet.android]
+min_sdk_version = 22
+target_sdk_version = 34
+compile_sdk_version = 34
