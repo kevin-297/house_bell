@@ -37,7 +37,8 @@ jobs:
 
       - name: Build APK
         run: |
-          flet build apk --android-skip-build-dependency-validation --android-permissions android.permission.INTERNET=true android.permission.ACCESS_WIFI_STATE=true android.permission.ACCESS_NETWORK_STATE=true
+          flet build apk --android-permissions android.permission.INTERNET=true android.permission.ACCESS_WIFI_STATE=true android.permission.ACCESS_NETWORK_STATE=true
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
